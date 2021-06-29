@@ -2,6 +2,56 @@
  * YOUR CODE HERE *
  ******************/
 
+function addMeToEnd(arr) {
+
+  arr.push('Colin');
+
+}
+
+
+function addMeToStart(arr) {
+
+  arr.unshift('Colin');
+
+}
+
+function changeLast(arr, val) {
+
+  arr[arr.length - 1] = val;
+
+}
+
+function changeAllValuesTo(arr, val) {
+
+  for (i = 0; i < arr.length; i++) {
+    arr [i] = val;
+  }
+}
+
+function oddOrEven(arr) {
+  for (i = 0; i < arr.length; i++) {
+    arr[i] % 2 === 0 ? arr[i] = 'even' : arr[i] = 'odd';
+  }
+}
+
+function changeNextThreeToValue(start, arr, value) {
+  arr[start] = value;
+  arr[start + 1] = value;
+  arr[start + 2] = value;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
